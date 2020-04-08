@@ -1,0 +1,149 @@
+Stack
+(VarDeclStmt{name='varf', typ=StringType};(varf=ValueExp{e=StringValue{val='C:\Users\Pop\IdeaProjects\lab 3-7\src\project\test.txt'}};(project.OpenRFile@1e88b3c;(VarDeclStmt{name='varc', typ=IntType{}};(project.readFile@42d80b78;(print(VarExp{id='varc'});(project.readFile@3bfdc050;(print(VarExp{id='varc'});project.closeRFile@1bce4f0a))))))))
+SymTable
+Out
+
+
+Stack
+VarDeclStmt{name='varf', typ=StringType}
+(varf=ValueExp{e=StringValue{val='C:\Users\Pop\IdeaProjects\lab 3-7\src\project\test.txt'}};(project.OpenRFile@1e88b3c;(VarDeclStmt{name='varc', typ=IntType{}};(project.readFile@42d80b78;(print(VarExp{id='varc'});(project.readFile@3bfdc050;(print(VarExp{id='varc'});project.closeRFile@1bce4f0a)))))))
+SymTable
+Out
+
+
+Stack
+(varf=ValueExp{e=StringValue{val='C:\Users\Pop\IdeaProjects\lab 3-7\src\project\test.txt'}};(project.OpenRFile@1e88b3c;(VarDeclStmt{name='varc', typ=IntType{}};(project.readFile@42d80b78;(print(VarExp{id='varc'});(project.readFile@3bfdc050;(print(VarExp{id='varc'});project.closeRFile@1bce4f0a)))))))
+SymTable
+varf StringValue{val=''}
+Out
+
+
+Stack
+varf=ValueExp{e=StringValue{val='C:\Users\Pop\IdeaProjects\lab 3-7\src\project\test.txt'}}
+(project.OpenRFile@1e88b3c;(VarDeclStmt{name='varc', typ=IntType{}};(project.readFile@42d80b78;(print(VarExp{id='varc'});(project.readFile@3bfdc050;(print(VarExp{id='varc'});project.closeRFile@1bce4f0a))))))
+SymTable
+varf StringValue{val=''}
+Out
+
+
+Stack
+(project.OpenRFile@1e88b3c;(VarDeclStmt{name='varc', typ=IntType{}};(project.readFile@42d80b78;(print(VarExp{id='varc'});(project.readFile@3bfdc050;(print(VarExp{id='varc'});project.closeRFile@1bce4f0a))))))
+SymTable
+varf StringValue{val='C:\Users\Pop\IdeaProjects\lab 3-7\src\project\test.txt'}
+Out
+
+
+Stack
+project.OpenRFile@1e88b3c
+(VarDeclStmt{name='varc', typ=IntType{}};(project.readFile@42d80b78;(print(VarExp{id='varc'});(project.readFile@3bfdc050;(print(VarExp{id='varc'});project.closeRFile@1bce4f0a)))))
+SymTable
+varf StringValue{val='C:\Users\Pop\IdeaProjects\lab 3-7\src\project\test.txt'}
+Out
+
+
+Stack
+(VarDeclStmt{name='varc', typ=IntType{}};(project.readFile@42d80b78;(print(VarExp{id='varc'});(project.readFile@3bfdc050;(print(VarExp{id='varc'});project.closeRFile@1bce4f0a)))))
+SymTable
+varf StringValue{val='C:\Users\Pop\IdeaProjects\lab 3-7\src\project\test.txt'}
+Out
+
+
+Stack
+VarDeclStmt{name='varc', typ=IntType{}}
+(project.readFile@42d80b78;(print(VarExp{id='varc'});(project.readFile@3bfdc050;(print(VarExp{id='varc'});project.closeRFile@1bce4f0a))))
+SymTable
+varf StringValue{val='C:\Users\Pop\IdeaProjects\lab 3-7\src\project\test.txt'}
+Out
+
+
+Stack
+(project.readFile@42d80b78;(print(VarExp{id='varc'});(project.readFile@3bfdc050;(print(VarExp{id='varc'});project.closeRFile@1bce4f0a))))
+SymTable
+varc IntValue{val=0}
+varf StringValue{val='C:\Users\Pop\IdeaProjects\lab 3-7\src\project\test.txt'}
+Out
+
+
+Stack
+project.readFile@42d80b78
+(print(VarExp{id='varc'});(project.readFile@3bfdc050;(print(VarExp{id='varc'});project.closeRFile@1bce4f0a)))
+SymTable
+varc IntValue{val=0}
+varf StringValue{val='C:\Users\Pop\IdeaProjects\lab 3-7\src\project\test.txt'}
+Out
+
+
+Stack
+(print(VarExp{id='varc'});(project.readFile@3bfdc050;(print(VarExp{id='varc'});project.closeRFile@1bce4f0a)))
+SymTable
+varc IntValue{val=12}
+varf StringValue{val='C:\Users\Pop\IdeaProjects\lab 3-7\src\project\test.txt'}
+Out
+
+
+Stack
+print(VarExp{id='varc'})
+(project.readFile@3bfdc050;(print(VarExp{id='varc'});project.closeRFile@1bce4f0a))
+SymTable
+varc IntValue{val=12}
+varf StringValue{val='C:\Users\Pop\IdeaProjects\lab 3-7\src\project\test.txt'}
+Out
+
+
+Stack
+(project.readFile@3bfdc050;(print(VarExp{id='varc'});project.closeRFile@1bce4f0a))
+SymTable
+varc IntValue{val=12}
+varf StringValue{val='C:\Users\Pop\IdeaProjects\lab 3-7\src\project\test.txt'}
+Out
+IntValue{val=12}
+
+
+Stack
+project.readFile@3bfdc050
+(print(VarExp{id='varc'});project.closeRFile@1bce4f0a)
+SymTable
+varc IntValue{val=12}
+varf StringValue{val='C:\Users\Pop\IdeaProjects\lab 3-7\src\project\test.txt'}
+Out
+IntValue{val=12}
+
+
+Stack
+(print(VarExp{id='varc'});project.closeRFile@1bce4f0a)
+SymTable
+varc IntValue{val=0}
+varf StringValue{val='C:\Users\Pop\IdeaProjects\lab 3-7\src\project\test.txt'}
+Out
+IntValue{val=12}
+
+
+Stack
+print(VarExp{id='varc'})
+project.closeRFile@1bce4f0a
+SymTable
+varc IntValue{val=0}
+varf StringValue{val='C:\Users\Pop\IdeaProjects\lab 3-7\src\project\test.txt'}
+Out
+IntValue{val=12}
+
+
+Stack
+project.closeRFile@1bce4f0a
+SymTable
+varc IntValue{val=0}
+varf StringValue{val='C:\Users\Pop\IdeaProjects\lab 3-7\src\project\test.txt'}
+Out
+IntValue{val=12}
+IntValue{val=0}
+
+
+Stack
+SymTable
+varc IntValue{val=0}
+varf StringValue{val='C:\Users\Pop\IdeaProjects\lab 3-7\src\project\test.txt'}
+Out
+IntValue{val=12}
+IntValue{val=0}
+
+

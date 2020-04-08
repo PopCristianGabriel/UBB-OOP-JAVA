@@ -1,0 +1,511 @@
+Program: 0
+Stack
+(VarDeclStmt{name='v', typ=IntType{}};(VarDeclStmt{name='a', typ=Ref(IntType{})};(v=ValueExp{e=IntValue{val=10}};(New{var_name='a', expression=ValueExp{e=IntValue{val=20}}};(forkStmt{program=(wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}})))))))
+SymTable
+
+Heap
+Out
+
+
+Program: 0
+Stack
+VarDeclStmt{name='v', typ=IntType{}}
+(VarDeclStmt{name='a', typ=Ref(IntType{})};(v=ValueExp{e=IntValue{val=10}};(New{var_name='a', expression=ValueExp{e=IntValue{val=20}}};(forkStmt{program=(wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))))))
+SymTable
+
+Heap
+Out
+
+
+Program: 0
+Stack
+VarDeclStmt{name='v', typ=IntType{}}
+(VarDeclStmt{name='a', typ=Ref(IntType{})};(v=ValueExp{e=IntValue{val=10}};(New{var_name='a', expression=ValueExp{e=IntValue{val=20}}};(forkStmt{program=(wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))))))
+SymTable
+
+Heap
+Out
+
+
+Program: 0
+Stack
+(VarDeclStmt{name='a', typ=Ref(IntType{})};(v=ValueExp{e=IntValue{val=10}};(New{var_name='a', expression=ValueExp{e=IntValue{val=20}}};(forkStmt{program=(wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))))))
+SymTable
+v IntValue{val=0}
+
+Heap
+Out
+
+
+Program: 0
+Stack
+(VarDeclStmt{name='a', typ=Ref(IntType{})};(v=ValueExp{e=IntValue{val=10}};(New{var_name='a', expression=ValueExp{e=IntValue{val=20}}};(forkStmt{program=(wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))))))
+SymTable
+v IntValue{val=0}
+
+Heap
+Out
+
+
+Program: 0
+Stack
+VarDeclStmt{name='a', typ=Ref(IntType{})}
+(v=ValueExp{e=IntValue{val=10}};(New{var_name='a', expression=ValueExp{e=IntValue{val=20}}};(forkStmt{program=(wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}})))))
+SymTable
+v IntValue{val=0}
+
+Heap
+Out
+
+
+Program: 0
+Stack
+VarDeclStmt{name='a', typ=Ref(IntType{})}
+(v=ValueExp{e=IntValue{val=10}};(New{var_name='a', expression=ValueExp{e=IntValue{val=20}}};(forkStmt{program=(wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}})))))
+SymTable
+v IntValue{val=0}
+
+Heap
+Out
+
+
+Program: 0
+Stack
+(v=ValueExp{e=IntValue{val=10}};(New{var_name='a', expression=ValueExp{e=IntValue{val=20}}};(forkStmt{program=(wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}})))))
+SymTable
+a RefValue{address=0, locationType=IntType{}}
+v IntValue{val=0}
+
+Heap
+Out
+
+
+Program: 0
+Stack
+(v=ValueExp{e=IntValue{val=10}};(New{var_name='a', expression=ValueExp{e=IntValue{val=20}}};(forkStmt{program=(wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}})))))
+SymTable
+a RefValue{address=0, locationType=IntType{}}
+v IntValue{val=0}
+
+Heap
+Out
+
+
+Program: 0
+Stack
+v=ValueExp{e=IntValue{val=10}}
+(New{var_name='a', expression=ValueExp{e=IntValue{val=20}}};(forkStmt{program=(wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))))
+SymTable
+a RefValue{address=0, locationType=IntType{}}
+v IntValue{val=0}
+
+Heap
+Out
+
+
+Program: 0
+Stack
+v=ValueExp{e=IntValue{val=10}}
+(New{var_name='a', expression=ValueExp{e=IntValue{val=20}}};(forkStmt{program=(wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))))
+SymTable
+a RefValue{address=0, locationType=IntType{}}
+v IntValue{val=0}
+
+Heap
+Out
+
+
+Program: 0
+Stack
+(New{var_name='a', expression=ValueExp{e=IntValue{val=20}}};(forkStmt{program=(wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))))
+SymTable
+a RefValue{address=0, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+Out
+
+
+Program: 0
+Stack
+(New{var_name='a', expression=ValueExp{e=IntValue{val=20}}};(forkStmt{program=(wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))))
+SymTable
+a RefValue{address=0, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+Out
+
+
+Program: 0
+Stack
+New{var_name='a', expression=ValueExp{e=IntValue{val=20}}}
+(forkStmt{program=(wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}})))
+SymTable
+a RefValue{address=0, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+Out
+
+
+Program: 0
+Stack
+New{var_name='a', expression=ValueExp{e=IntValue{val=20}}}
+(forkStmt{program=(wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}})))
+SymTable
+a RefValue{address=0, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+Out
+
+
+Program: 0
+Stack
+(forkStmt{program=(wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}})))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=20}
+Out
+
+
+Program: 0
+Stack
+(forkStmt{program=(wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))))};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}})))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=20}
+Out
+
+
+Program: 0
+Stack
+forkStmt{program=(wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))))}
+(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=20}
+Out
+
+
+Program: 0
+Stack
+forkStmt{program=(wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))))}
+(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=20}
+Out
+
+
+Program: 0
+Stack
+(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=20}
+Out
+
+
+Program: 3
+Stack
+(wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=20}
+Out
+
+
+Program: 0
+Stack
+(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=20}
+Out
+
+
+Program: 3
+Stack
+(wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}};(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=20}
+Out
+
+
+Program: 0
+Stack
+print(VarExp{id='v'})
+print(rH{e=VarExp{id='a'}})
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=20}
+Out
+
+
+Program: 3
+Stack
+wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}}
+(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}})))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=20}
+Out
+
+
+Program: 0
+Stack
+print(VarExp{id='v'})
+print(rH{e=VarExp{id='a'}})
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=20}
+Out
+
+
+Program: 3
+Stack
+wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}}
+(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}})))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=20}
+Out
+
+
+Program: 0
+Stack
+print(rH{e=VarExp{id='a'}})
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=30}
+Out
+IntValue{val=10}
+
+
+Program: 3
+Stack
+(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}})))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=30}
+Out
+IntValue{val=10}
+
+
+Program: 0
+Stack
+print(rH{e=VarExp{id='a'}})
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=30}
+Out
+IntValue{val=10}
+
+
+Program: 3
+Stack
+(v=ValueExp{e=IntValue{val=32}};(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}})))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=30}
+Out
+IntValue{val=10}
+
+
+Program: 0
+Stack
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=30}
+Out
+IntValue{val=10}
+IntValue{val=30}
+
+
+Program: 3
+Stack
+v=ValueExp{e=IntValue{val=32}}
+(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=30}
+Out
+IntValue{val=10}
+IntValue{val=30}
+
+
+Program: 3
+Stack
+v=ValueExp{e=IntValue{val=32}}
+(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=30}
+Out
+IntValue{val=10}
+IntValue{val=30}
+
+
+Program: 3
+Stack
+(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=32}
+
+Heap
+1 IntValue{val=30}
+Out
+IntValue{val=10}
+IntValue{val=30}
+
+
+Program: 3
+Stack
+(print(VarExp{id='v'});print(rH{e=VarExp{id='a'}}))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=32}
+
+Heap
+1 IntValue{val=30}
+Out
+IntValue{val=10}
+IntValue{val=30}
+
+
+Program: 3
+Stack
+print(VarExp{id='v'})
+print(rH{e=VarExp{id='a'}})
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=32}
+
+Heap
+1 IntValue{val=30}
+Out
+IntValue{val=10}
+IntValue{val=30}
+
+
+Program: 3
+Stack
+print(VarExp{id='v'})
+print(rH{e=VarExp{id='a'}})
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=32}
+
+Heap
+1 IntValue{val=30}
+Out
+IntValue{val=10}
+IntValue{val=30}
+
+
+Program: 3
+Stack
+print(rH{e=VarExp{id='a'}})
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=32}
+
+Heap
+1 IntValue{val=30}
+Out
+IntValue{val=10}
+IntValue{val=30}
+IntValue{val=32}
+
+
+Program: 3
+Stack
+print(rH{e=VarExp{id='a'}})
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=32}
+
+Heap
+1 IntValue{val=30}
+Out
+IntValue{val=10}
+IntValue{val=30}
+IntValue{val=32}
+
+
+Program: 3
+Stack
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=32}
+
+Heap
+1 IntValue{val=30}
+Out
+IntValue{val=10}
+IntValue{val=30}
+IntValue{val=32}
+IntValue{val=30}
+
+

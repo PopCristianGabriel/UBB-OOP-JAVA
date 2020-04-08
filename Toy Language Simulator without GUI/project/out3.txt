@@ -1,0 +1,196 @@
+Program: 2
+Stack
+(VarDeclStmt{name='a', typ=IntType{}};(VarDeclStmt{name='b', typ=IntType{}};(a=ArithExp{e1=ValueExp{e=IntValue{val=2}}, e2=ArithExp{e1=ValueExp{e=IntValue{val=3}}, e2=ValueExp{e=IntValue{val=5}}, op=3}, op=1};(b=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=IntValue{val=1}}, op=1};print(VarExp{id='b'})))))
+SymTable
+
+Heap
+Out
+
+
+Program: 2
+Stack
+VarDeclStmt{name='a', typ=IntType{}}
+(VarDeclStmt{name='b', typ=IntType{}};(a=ArithExp{e1=ValueExp{e=IntValue{val=2}}, e2=ArithExp{e1=ValueExp{e=IntValue{val=3}}, e2=ValueExp{e=IntValue{val=5}}, op=3}, op=1};(b=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=IntValue{val=1}}, op=1};print(VarExp{id='b'}))))
+SymTable
+
+Heap
+Out
+
+
+Program: 2
+Stack
+VarDeclStmt{name='a', typ=IntType{}}
+(VarDeclStmt{name='b', typ=IntType{}};(a=ArithExp{e1=ValueExp{e=IntValue{val=2}}, e2=ArithExp{e1=ValueExp{e=IntValue{val=3}}, e2=ValueExp{e=IntValue{val=5}}, op=3}, op=1};(b=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=IntValue{val=1}}, op=1};print(VarExp{id='b'}))))
+SymTable
+
+Heap
+Out
+
+
+Program: 2
+Stack
+(VarDeclStmt{name='b', typ=IntType{}};(a=ArithExp{e1=ValueExp{e=IntValue{val=2}}, e2=ArithExp{e1=ValueExp{e=IntValue{val=3}}, e2=ValueExp{e=IntValue{val=5}}, op=3}, op=1};(b=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=IntValue{val=1}}, op=1};print(VarExp{id='b'}))))
+SymTable
+a IntValue{val=0}
+
+Heap
+Out
+
+
+Program: 2
+Stack
+(VarDeclStmt{name='b', typ=IntType{}};(a=ArithExp{e1=ValueExp{e=IntValue{val=2}}, e2=ArithExp{e1=ValueExp{e=IntValue{val=3}}, e2=ValueExp{e=IntValue{val=5}}, op=3}, op=1};(b=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=IntValue{val=1}}, op=1};print(VarExp{id='b'}))))
+SymTable
+a IntValue{val=0}
+
+Heap
+Out
+
+
+Program: 2
+Stack
+VarDeclStmt{name='b', typ=IntType{}}
+(a=ArithExp{e1=ValueExp{e=IntValue{val=2}}, e2=ArithExp{e1=ValueExp{e=IntValue{val=3}}, e2=ValueExp{e=IntValue{val=5}}, op=3}, op=1};(b=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=IntValue{val=1}}, op=1};print(VarExp{id='b'})))
+SymTable
+a IntValue{val=0}
+
+Heap
+Out
+
+
+Program: 2
+Stack
+VarDeclStmt{name='b', typ=IntType{}}
+(a=ArithExp{e1=ValueExp{e=IntValue{val=2}}, e2=ArithExp{e1=ValueExp{e=IntValue{val=3}}, e2=ValueExp{e=IntValue{val=5}}, op=3}, op=1};(b=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=IntValue{val=1}}, op=1};print(VarExp{id='b'})))
+SymTable
+a IntValue{val=0}
+
+Heap
+Out
+
+
+Program: 2
+Stack
+(a=ArithExp{e1=ValueExp{e=IntValue{val=2}}, e2=ArithExp{e1=ValueExp{e=IntValue{val=3}}, e2=ValueExp{e=IntValue{val=5}}, op=3}, op=1};(b=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=IntValue{val=1}}, op=1};print(VarExp{id='b'})))
+SymTable
+b IntValue{val=0}
+a IntValue{val=0}
+
+Heap
+Out
+
+
+Program: 2
+Stack
+(a=ArithExp{e1=ValueExp{e=IntValue{val=2}}, e2=ArithExp{e1=ValueExp{e=IntValue{val=3}}, e2=ValueExp{e=IntValue{val=5}}, op=3}, op=1};(b=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=IntValue{val=1}}, op=1};print(VarExp{id='b'})))
+SymTable
+b IntValue{val=0}
+a IntValue{val=0}
+
+Heap
+Out
+
+
+Program: 2
+Stack
+a=ArithExp{e1=ValueExp{e=IntValue{val=2}}, e2=ArithExp{e1=ValueExp{e=IntValue{val=3}}, e2=ValueExp{e=IntValue{val=5}}, op=3}, op=1}
+(b=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=IntValue{val=1}}, op=1};print(VarExp{id='b'}))
+SymTable
+b IntValue{val=0}
+a IntValue{val=0}
+
+Heap
+Out
+
+
+Program: 2
+Stack
+a=ArithExp{e1=ValueExp{e=IntValue{val=2}}, e2=ArithExp{e1=ValueExp{e=IntValue{val=3}}, e2=ValueExp{e=IntValue{val=5}}, op=3}, op=1}
+(b=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=IntValue{val=1}}, op=1};print(VarExp{id='b'}))
+SymTable
+b IntValue{val=0}
+a IntValue{val=0}
+
+Heap
+Out
+
+
+Program: 2
+Stack
+(b=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=IntValue{val=1}}, op=1};print(VarExp{id='b'}))
+SymTable
+b IntValue{val=0}
+a IntValue{val=17}
+
+Heap
+Out
+
+
+Program: 2
+Stack
+(b=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=IntValue{val=1}}, op=1};print(VarExp{id='b'}))
+SymTable
+b IntValue{val=0}
+a IntValue{val=17}
+
+Heap
+Out
+
+
+Program: 2
+Stack
+b=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=IntValue{val=1}}, op=1}
+print(VarExp{id='b'})
+SymTable
+b IntValue{val=0}
+a IntValue{val=17}
+
+Heap
+Out
+
+
+Program: 2
+Stack
+b=ArithExp{e1=VarExp{id='a'}, e2=ValueExp{e=IntValue{val=1}}, op=1}
+print(VarExp{id='b'})
+SymTable
+b IntValue{val=0}
+a IntValue{val=17}
+
+Heap
+Out
+
+
+Program: 2
+Stack
+print(VarExp{id='b'})
+SymTable
+b IntValue{val=18}
+a IntValue{val=17}
+
+Heap
+Out
+
+
+Program: 2
+Stack
+print(VarExp{id='b'})
+SymTable
+b IntValue{val=18}
+a IntValue{val=17}
+
+Heap
+Out
+
+
+Program: 2
+Stack
+SymTable
+b IntValue{val=18}
+a IntValue{val=17}
+
+Heap
+Out
+IntValue{val=18}
+
+
