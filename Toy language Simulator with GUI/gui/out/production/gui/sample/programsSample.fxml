@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="646.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView fx:id="ProgramsListView" layoutX="30.0" layoutY="140.0" prefHeight="323.0" prefWidth="593.0" />
+      <Button fx:id="ChooseButton" layoutX="197.0" layoutY="94.0" mnemonicParsing="false" onAction="#choose_program" prefHeight="25.0" prefWidth="75.0" text="Choose" />
+      <Button fx:id="show_all_programs_button" layoutX="354.0" layoutY="94.0" mnemonicParsing="false" onAction="#show_all_programs" prefHeight="25.0" prefWidth="85.0" text="Show" />
+   </children>
+</Pane>

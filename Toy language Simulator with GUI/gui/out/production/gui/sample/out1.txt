@@ -1,0 +1,511 @@
+Program: 0
+Stack
+Compound Statement : 1->VarDeclStmt{name='v', typ=IntType{}}2->Compound Statement : 1->VarDeclStmt{name='a', typ=Ref(IntType{})}2->Compound Statement : 1->v=ValueExp{e=IntValue{val=10}}2->Compound Statement : 1->New{var_name='a', expression=ValueExp{e=IntValue{val=20}}}2->Compound Statement : 1->forkStmt{program=Compound Statement : 1->wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}}2->Compound Statement : 1->v=ValueExp{e=IntValue{val=32}}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))))}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}})))))))
+SymTable
+
+Heap
+Out
+
+
+Program: 0
+Stack
+VarDeclStmt{name='v', typ=IntType{}}
+Compound Statement : 1->VarDeclStmt{name='a', typ=Ref(IntType{})}2->Compound Statement : 1->v=ValueExp{e=IntValue{val=10}}2->Compound Statement : 1->New{var_name='a', expression=ValueExp{e=IntValue{val=20}}}2->Compound Statement : 1->forkStmt{program=Compound Statement : 1->wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}}2->Compound Statement : 1->v=ValueExp{e=IntValue{val=32}}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))))}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))))))
+SymTable
+
+Heap
+Out
+
+
+Program: 0
+Stack
+VarDeclStmt{name='v', typ=IntType{}}
+Compound Statement : 1->VarDeclStmt{name='a', typ=Ref(IntType{})}2->Compound Statement : 1->v=ValueExp{e=IntValue{val=10}}2->Compound Statement : 1->New{var_name='a', expression=ValueExp{e=IntValue{val=20}}}2->Compound Statement : 1->forkStmt{program=Compound Statement : 1->wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}}2->Compound Statement : 1->v=ValueExp{e=IntValue{val=32}}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))))}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))))))
+SymTable
+
+Heap
+Out
+
+
+Program: 0
+Stack
+Compound Statement : 1->VarDeclStmt{name='a', typ=Ref(IntType{})}2->Compound Statement : 1->v=ValueExp{e=IntValue{val=10}}2->Compound Statement : 1->New{var_name='a', expression=ValueExp{e=IntValue{val=20}}}2->Compound Statement : 1->forkStmt{program=Compound Statement : 1->wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}}2->Compound Statement : 1->v=ValueExp{e=IntValue{val=32}}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))))}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))))))
+SymTable
+v IntValue{val=0}
+
+Heap
+Out
+
+
+Program: 0
+Stack
+Compound Statement : 1->VarDeclStmt{name='a', typ=Ref(IntType{})}2->Compound Statement : 1->v=ValueExp{e=IntValue{val=10}}2->Compound Statement : 1->New{var_name='a', expression=ValueExp{e=IntValue{val=20}}}2->Compound Statement : 1->forkStmt{program=Compound Statement : 1->wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}}2->Compound Statement : 1->v=ValueExp{e=IntValue{val=32}}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))))}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))))))
+SymTable
+v IntValue{val=0}
+
+Heap
+Out
+
+
+Program: 0
+Stack
+VarDeclStmt{name='a', typ=Ref(IntType{})}
+Compound Statement : 1->v=ValueExp{e=IntValue{val=10}}2->Compound Statement : 1->New{var_name='a', expression=ValueExp{e=IntValue{val=20}}}2->Compound Statement : 1->forkStmt{program=Compound Statement : 1->wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}}2->Compound Statement : 1->v=ValueExp{e=IntValue{val=32}}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))))}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}})))))
+SymTable
+v IntValue{val=0}
+
+Heap
+Out
+
+
+Program: 0
+Stack
+VarDeclStmt{name='a', typ=Ref(IntType{})}
+Compound Statement : 1->v=ValueExp{e=IntValue{val=10}}2->Compound Statement : 1->New{var_name='a', expression=ValueExp{e=IntValue{val=20}}}2->Compound Statement : 1->forkStmt{program=Compound Statement : 1->wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}}2->Compound Statement : 1->v=ValueExp{e=IntValue{val=32}}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))))}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}})))))
+SymTable
+v IntValue{val=0}
+
+Heap
+Out
+
+
+Program: 0
+Stack
+Compound Statement : 1->v=ValueExp{e=IntValue{val=10}}2->Compound Statement : 1->New{var_name='a', expression=ValueExp{e=IntValue{val=20}}}2->Compound Statement : 1->forkStmt{program=Compound Statement : 1->wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}}2->Compound Statement : 1->v=ValueExp{e=IntValue{val=32}}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))))}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}})))))
+SymTable
+a RefValue{address=0, locationType=IntType{}}
+v IntValue{val=0}
+
+Heap
+Out
+
+
+Program: 0
+Stack
+Compound Statement : 1->v=ValueExp{e=IntValue{val=10}}2->Compound Statement : 1->New{var_name='a', expression=ValueExp{e=IntValue{val=20}}}2->Compound Statement : 1->forkStmt{program=Compound Statement : 1->wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}}2->Compound Statement : 1->v=ValueExp{e=IntValue{val=32}}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))))}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}})))))
+SymTable
+a RefValue{address=0, locationType=IntType{}}
+v IntValue{val=0}
+
+Heap
+Out
+
+
+Program: 0
+Stack
+v=ValueExp{e=IntValue{val=10}}
+Compound Statement : 1->New{var_name='a', expression=ValueExp{e=IntValue{val=20}}}2->Compound Statement : 1->forkStmt{program=Compound Statement : 1->wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}}2->Compound Statement : 1->v=ValueExp{e=IntValue{val=32}}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))))}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))))
+SymTable
+a RefValue{address=0, locationType=IntType{}}
+v IntValue{val=0}
+
+Heap
+Out
+
+
+Program: 0
+Stack
+v=ValueExp{e=IntValue{val=10}}
+Compound Statement : 1->New{var_name='a', expression=ValueExp{e=IntValue{val=20}}}2->Compound Statement : 1->forkStmt{program=Compound Statement : 1->wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}}2->Compound Statement : 1->v=ValueExp{e=IntValue{val=32}}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))))}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))))
+SymTable
+a RefValue{address=0, locationType=IntType{}}
+v IntValue{val=0}
+
+Heap
+Out
+
+
+Program: 0
+Stack
+Compound Statement : 1->New{var_name='a', expression=ValueExp{e=IntValue{val=20}}}2->Compound Statement : 1->forkStmt{program=Compound Statement : 1->wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}}2->Compound Statement : 1->v=ValueExp{e=IntValue{val=32}}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))))}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))))
+SymTable
+a RefValue{address=0, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+Out
+
+
+Program: 0
+Stack
+Compound Statement : 1->New{var_name='a', expression=ValueExp{e=IntValue{val=20}}}2->Compound Statement : 1->forkStmt{program=Compound Statement : 1->wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}}2->Compound Statement : 1->v=ValueExp{e=IntValue{val=32}}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))))}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))))
+SymTable
+a RefValue{address=0, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+Out
+
+
+Program: 0
+Stack
+New{var_name='a', expression=ValueExp{e=IntValue{val=20}}}
+Compound Statement : 1->forkStmt{program=Compound Statement : 1->wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}}2->Compound Statement : 1->v=ValueExp{e=IntValue{val=32}}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))))}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}})))
+SymTable
+a RefValue{address=0, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+Out
+
+
+Program: 0
+Stack
+New{var_name='a', expression=ValueExp{e=IntValue{val=20}}}
+Compound Statement : 1->forkStmt{program=Compound Statement : 1->wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}}2->Compound Statement : 1->v=ValueExp{e=IntValue{val=32}}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))))}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}})))
+SymTable
+a RefValue{address=0, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+Out
+
+
+Program: 0
+Stack
+Compound Statement : 1->forkStmt{program=Compound Statement : 1->wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}}2->Compound Statement : 1->v=ValueExp{e=IntValue{val=32}}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))))}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}})))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=20}
+Out
+
+
+Program: 0
+Stack
+Compound Statement : 1->forkStmt{program=Compound Statement : 1->wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}}2->Compound Statement : 1->v=ValueExp{e=IntValue{val=32}}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))))}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}})))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=20}
+Out
+
+
+Program: 0
+Stack
+forkStmt{program=Compound Statement : 1->wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}}2->Compound Statement : 1->v=ValueExp{e=IntValue{val=32}}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))))}
+Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=20}
+Out
+
+
+Program: 0
+Stack
+forkStmt{program=Compound Statement : 1->wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}}2->Compound Statement : 1->v=ValueExp{e=IntValue{val=32}}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))))}
+Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=20}
+Out
+
+
+Program: 0
+Stack
+Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=20}
+Out
+
+
+Program: 1
+Stack
+Compound Statement : 1->wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}}2->Compound Statement : 1->v=ValueExp{e=IntValue{val=32}}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=20}
+Out
+
+
+Program: 0
+Stack
+Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=20}
+Out
+
+
+Program: 1
+Stack
+Compound Statement : 1->wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}}2->Compound Statement : 1->v=ValueExp{e=IntValue{val=32}}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=20}
+Out
+
+
+Program: 0
+Stack
+print(VarExp{id='v'})
+print(rH{e=VarExp{id='a'}})
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=20}
+Out
+
+
+Program: 1
+Stack
+wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}}
+Compound Statement : 1->v=ValueExp{e=IntValue{val=32}}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}})))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=20}
+Out
+
+
+Program: 0
+Stack
+print(VarExp{id='v'})
+print(rH{e=VarExp{id='a'}})
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=20}
+Out
+
+
+Program: 1
+Stack
+wH{var_name='a', exp=ValueExp{e=IntValue{val=30}}}
+Compound Statement : 1->v=ValueExp{e=IntValue{val=32}}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}})))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=20}
+Out
+
+
+Program: 0
+Stack
+print(rH{e=VarExp{id='a'}})
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=30}
+Out
+IntValue{val=10}
+
+
+Program: 1
+Stack
+Compound Statement : 1->v=ValueExp{e=IntValue{val=32}}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}})))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=30}
+Out
+IntValue{val=10}
+
+
+Program: 0
+Stack
+print(rH{e=VarExp{id='a'}})
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=30}
+Out
+IntValue{val=10}
+
+
+Program: 1
+Stack
+Compound Statement : 1->v=ValueExp{e=IntValue{val=32}}2->Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}})))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=30}
+Out
+IntValue{val=10}
+
+
+Program: 0
+Stack
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=30}
+Out
+IntValue{val=10}
+IntValue{val=30}
+
+
+Program: 1
+Stack
+v=ValueExp{e=IntValue{val=32}}
+Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=30}
+Out
+IntValue{val=10}
+IntValue{val=30}
+
+
+Program: 1
+Stack
+v=ValueExp{e=IntValue{val=32}}
+Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=10}
+
+Heap
+1 IntValue{val=30}
+Out
+IntValue{val=10}
+IntValue{val=30}
+
+
+Program: 1
+Stack
+Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=32}
+
+Heap
+1 IntValue{val=30}
+Out
+IntValue{val=10}
+IntValue{val=30}
+
+
+Program: 1
+Stack
+Compound Statement : 1->print(VarExp{id='v'})2->print(rH{e=VarExp{id='a'}}))
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=32}
+
+Heap
+1 IntValue{val=30}
+Out
+IntValue{val=10}
+IntValue{val=30}
+
+
+Program: 1
+Stack
+print(VarExp{id='v'})
+print(rH{e=VarExp{id='a'}})
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=32}
+
+Heap
+1 IntValue{val=30}
+Out
+IntValue{val=10}
+IntValue{val=30}
+
+
+Program: 1
+Stack
+print(VarExp{id='v'})
+print(rH{e=VarExp{id='a'}})
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=32}
+
+Heap
+1 IntValue{val=30}
+Out
+IntValue{val=10}
+IntValue{val=30}
+
+
+Program: 1
+Stack
+print(rH{e=VarExp{id='a'}})
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=32}
+
+Heap
+1 IntValue{val=30}
+Out
+IntValue{val=10}
+IntValue{val=30}
+IntValue{val=32}
+
+
+Program: 1
+Stack
+print(rH{e=VarExp{id='a'}})
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=32}
+
+Heap
+1 IntValue{val=30}
+Out
+IntValue{val=10}
+IntValue{val=30}
+IntValue{val=32}
+
+
+Program: 1
+Stack
+SymTable
+a RefValue{address=1, locationType=IntType{}}
+v IntValue{val=32}
+
+Heap
+1 IntValue{val=30}
+Out
+IntValue{val=10}
+IntValue{val=30}
+IntValue{val=32}
+IntValue{val=30}
+
+
